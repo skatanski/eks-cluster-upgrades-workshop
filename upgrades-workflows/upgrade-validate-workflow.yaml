@@ -12,7 +12,7 @@ spec:
           - name: VPC_ID
             value: vpc-0d7b74f5af41293a7
           - name: AWS_REGION
-            value: 
+            value: us-west-2
           - name: CLUSTER_IAM_ROLE_NAME
             value: eks-upgrades-workshop-cluster-20230725022210720500000006
           - name: CLUSTER_SG_ID
@@ -67,7 +67,7 @@ spec:
           - name: CLUSTER_NAME
             value: eks-upgrades-workshop
           - name: AWS_REGION
-            value: 
+            value: us-west-2
       container:
         image: public.ecr.aws/i9m4f0j6/eks-validate-image:9
         command: ["/bin/sh","-c"]
